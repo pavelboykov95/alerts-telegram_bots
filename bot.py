@@ -9,7 +9,9 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands="start")
 async def start(message: types.Message):
-    await message.reply("Hi!")
+    await message.reply(f"Hi!, your chat_id: {message.chat.id}")
+
+
 
 
 if __name__ == '__main__':
