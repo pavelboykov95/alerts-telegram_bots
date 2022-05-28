@@ -157,3 +157,6 @@ package_testing_dir/*
 *.conv.*
 *.ini
 catboost_info
+
+# Authentification data
+auth_data.py
