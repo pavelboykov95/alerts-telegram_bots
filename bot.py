@@ -1,5 +1,5 @@
 from aiogram import Bot, Dispatcher, executor, types
-
+print("Hello")
 from auth_data import ML_ALERT_BOT_TOKEN
 
 
