@@ -10,7 +10,7 @@ if ROOT_DIR not in sys.path:
     sys.path.append(str(ROOT_DIR))
 
 from auth_data import ML_ALERT_BOT_TOKEN, MY_CHAT_ID, MAKS_ID
-from constants import API_URL, METHOD_SEND_MESSAGE
+from constants import API_URL, METHOD_SEND_MESSAGE, PAVELS_NAME
 
 # TODO(BoykovPV): To integrate storing user names and chat ids with sqlite
 def send_message(text: str, recipient_name:int = MY_CHAT_ID):
