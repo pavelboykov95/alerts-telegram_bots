@@ -4,4 +4,4 @@ METHOD_SEND_MESSAGE = '/sendMessage'
 
 MAKS_ID = 1834508872
 
-PAVELS_NAME = "Pavel"
+PAVELS_NAME = "Pavel Boykov"
